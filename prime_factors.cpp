@@ -19,6 +19,10 @@ int main() {
       cout<<i<<"\n";
       n=n/i;
     }
+     while(n%(i+2)==0){
+      cout<<(i+2)<<"\n";
+      n=n/(i+2);
+    }
   }
  if(n>3) cout<<n<<"\n";
 }
